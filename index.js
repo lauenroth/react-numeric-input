@@ -154,8 +154,8 @@ module.exports =
 	            return out;
 	        }
 	    }, {
-	        key: 'componentWillReceiveProps',
-	        value: function componentWillReceiveProps(props) {
+	        key: 'componentDidUpdate',
+	        value: function componentDidUpdate(props) {
 	            var _this2 = this;
 
 	            this._isStrict = !!props.strict;
